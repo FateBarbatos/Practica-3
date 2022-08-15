@@ -15,7 +15,7 @@ namespace Practica_3._3
             while(condicion)
             {
                 Console.WriteLine(contador);
-                if(contador <= limite)
+                if(contador == limite)
                 {
                     condicion = false;
                 }
